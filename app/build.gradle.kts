@@ -5,9 +5,7 @@ plugins {
 android {
     namespace = "br.edu.utfpr.trocatela_2026_2"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(37)
     }
 
     defaultConfig {
