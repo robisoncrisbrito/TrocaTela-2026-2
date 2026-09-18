@@ -11,15 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrocaTela20262">
-
+        <activity
+            android:name=".ListarActivity"
+            android:exported="false" />
         <activity
             android:name=".ConfirmarActivity"
             android:exported="false" />
-
         <activity
             android:name=".LancamentoActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
