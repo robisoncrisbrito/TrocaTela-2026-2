@@ -13,6 +13,10 @@
         android:theme="@style/Theme.TrocaTela20262">
 
         <activity
+            android:name=".ConfirmarActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".LancamentoActivity"
             android:exported="false" />
 

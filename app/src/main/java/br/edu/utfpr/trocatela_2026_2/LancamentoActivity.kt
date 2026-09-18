@@ -1,5 +1,6 @@
 package br.edu.utfpr.trocatela_2026_2
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
@@ -31,6 +32,13 @@ class LancamentoActivity : AppCompatActivity() {
 
     fun btConfirmarOnClick(view: View) {
 
+        val intent = Intent(this, ConfirmarActivity::class.java)
+
+        intent.putExtra( "cod", etCod.text.toString())
+        intent.putExtra( "qtd", etQtd.text.toString())
+        intent.putExtra( "valor", etValor.text.toString())
+
+        startActivity(intent)
     }
 
     fun btListarOnClick(view: View) {
